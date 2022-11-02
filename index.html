@@ -55,12 +55,12 @@
     <main id="calculadora">
         <h1>Calculadora Flex</h1>
         <img src="imagens/neutro.png" alt="Tanque do carro">
-        <form action="">
+        <form action="" name="frmFlex">
             <div id="valores">
-                <input type="number" name="" id="etanol" placeholder="Etanol" class="valor">
-                <input type="number" name="" id="gasolina" placeholder="Gasolina" class="valor">
-                <input type="button" value="Vantagem">
-                <input type="reset" value="Limpar">
+                <input type="number" name="" id="txtEtanol" placeholder="Etanol" class="valor">
+                <input type="number" name="" id="txtGasolina" placeholder="Gasolina" class="valor">
+                <input type="button" value="Vantagem" onclick="calcular()">
+                <input type="reset" value="Limpar" onclick="limpar()" id="btn2">
             </div>
         </form>
     </main>
